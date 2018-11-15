@@ -3,6 +3,9 @@
   "version": "1.0",
   "description" : "Single-hand clock showing percentage of today that's already gone",
   "manifest_version": 2,
+  "icons": {
+    "128": "icon.png"
+  },
   "chrome_url_overrides" : {
       "newtab": "clock.html"
   }
